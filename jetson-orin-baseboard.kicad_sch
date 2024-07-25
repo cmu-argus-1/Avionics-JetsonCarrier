@@ -13,54 +13,30 @@
 		(comment 2 "N. Khera")
 	)
 	(lib_symbols
-		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(exclude_from_sim no)
-			(in_bom yes)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 15.24 -5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
-				(at 15.24 -10.16 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,60 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "9774065151R"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 22.86 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SPACER"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -131,33 +54,51 @@
 					(hide yes)
 				)
 			)
-			(symbol "Spacer_Drill3.7mm_H6.5mm_9774065151R_1_1"
-				(rectangle
-					(start 2.54 -2.54)
-					(end 7.62 2.54)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 -1.27)
-					(end 6.35 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
 					(length 2.54)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,26 +213,26 @@
 		)
 	)
 	(junction
-		(at 256.54 149.86)
+		(at 262.89 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "686bb9b6-137f-4667-89cd-f29c550a2e95")
 	)
 	(junction
-		(at 256.54 143.51)
+		(at 262.89 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9515fded-207e-46c4-a208-b9f27c7561fb")
 	)
 	(junction
-		(at 256.54 156.21)
+		(at 262.89 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2db9aa6-99fb-4bb1-a307-1868c801c54a")
 	)
 	(wire
 		(pts
-			(xy 256.54 149.86) (xy 256.54 156.21)
+			(xy 262.89 149.86) (xy 262.89 156.21)
 		)
 		(stroke
 			(width 0)
@@ -301,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 156.21) (xy 257.81 156.21)
+			(xy 262.89 156.21) (xy 264.16 156.21)
 		)
 		(stroke
 			(width 0)
@@ -311,7 +252,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 137.16) (xy 256.54 137.16)
+			(xy 264.16 137.16) (xy 262.89 137.16)
 		)
 		(stroke
 			(width 0)
@@ -321,7 +262,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 149.86) (xy 257.81 149.86)
+			(xy 262.89 149.86) (xy 264.16 149.86)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +272,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 156.21) (xy 256.54 158.75)
+			(xy 262.89 156.21) (xy 262.89 158.75)
 		)
 		(stroke
 			(width 0)
@@ -341,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 143.51) (xy 257.81 143.51)
+			(xy 262.89 143.51) (xy 264.16 143.51)
 		)
 		(stroke
 			(width 0)
@@ -351,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 137.16) (xy 256.54 143.51)
+			(xy 262.89 137.16) (xy 262.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -361,7 +302,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 143.51) (xy 256.54 149.86)
+			(xy 262.89 143.51) (xy 262.89 149.86)
 		)
 		(stroke
 			(width 0)
@@ -371,7 +312,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 158.75 0)
+		(at 262.89 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -379,7 +320,7 @@
 		(dnp no)
 		(uuid "2a03fb03-4290-429d-a1a6-48dd60a2966d")
 		(property "Reference" "#PWR01"
-			(at 256.54 165.1 0)
+			(at 262.89 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -389,7 +330,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254.508 163.322 0)
+			(at 260.858 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,7 +339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 158.75 0)
+			(at 262.89 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 158.75 0)
+			(at 262.89 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 158.75 0)
+			(at 262.89 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +366,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 265.43 166.37 0)
+			(at 271.78 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +377,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 265.43 168.91 0)
+			(at 271.78 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,17 +400,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 257.81 137.16 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 266.7 137.16 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49a20d6f-7fe0-4c9f-8090-3f8d61a2d981")
-		(property "Reference" "H3"
-			(at 266.7 135.89 0)
+		(property "Reference" "H1"
+			(at 270.51 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +420,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 273.05 147.32 0)
+			(at 256.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,30 +430,26 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MountingHole2"
-			(at 273.05 149.86 0)
+		(property "Footprint" "JetsonCarrier:MountingHole2"
+			(at 266.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 273.05 152.4 0)
+		(property "Datasheet" "~"
+			(at 266.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 137.16 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 266.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,17 +458,18 @@
 			)
 		)
 		(property "MPN" "9774065151R"
-			(at 266.7 138.43 0)
+			(at 270.51 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Public" "False"
-			(at 280.67 149.86 0)
+			(at 254 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +479,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 0 274.32 0)
+			(at 129.54 -120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +488,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 0 274.32 0)
+			(at 129.54 -120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,24 +502,24 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 257.81 149.86 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 266.7 149.86 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b099c13-63e7-45e2-96d6-efabe8ff179f")
-		(property "Reference" "H5"
-			(at 266.7 148.59 0)
+		(property "Reference" "H3"
+			(at 270.51 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +529,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 273.05 160.02 0)
+			(at 256.54 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,30 +539,26 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MountingHole2"
-			(at 273.05 162.56 0)
+		(property "Footprint" "JetsonCarrier:MountingHole2"
+			(at 266.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 273.05 165.1 0)
+		(property "Datasheet" "~"
+			(at 266.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 149.86 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 266.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,17 +567,18 @@
 			)
 		)
 		(property "MPN" "9774065151R"
-			(at 266.7 151.13 0)
+			(at 270.51 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Public" "False"
-			(at 280.67 162.56 0)
+			(at 254 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +588,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 0 299.72 0)
+			(at 116.84 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +597,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 0 299.72 0)
+			(at 116.84 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,24 +611,24 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 257.81 143.51 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 266.7 143.51 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99014001-8d03-4441-ae92-a45d08e91a0e")
-		(property "Reference" "H4"
-			(at 266.7 142.24 0)
+		(property "Reference" "H2"
+			(at 270.51 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +638,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 273.05 153.67 0)
+			(at 256.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,30 +648,26 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MountingHole2"
-			(at 273.05 156.21 0)
+		(property "Footprint" "JetsonCarrier:MountingHole2"
+			(at 266.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 273.05 158.75 0)
+		(property "Datasheet" "~"
+			(at 266.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 143.51 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 266.7 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,17 +676,18 @@
 			)
 		)
 		(property "MPN" "9774065151R"
-			(at 266.7 144.78 0)
+			(at 270.51 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Public" "False"
-			(at 280.67 156.21 0)
+			(at 254 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +697,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 0 287.02 0)
+			(at 123.19 -114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +706,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 0 287.02 0)
+			(at 123.19 -114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,24 +720,24 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 257.81 156.21 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 266.7 156.21 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed58a688-5d63-48f6-82c2-409cb599e24c")
-		(property "Reference" "H6"
-			(at 266.7 154.94 0)
+		(property "Reference" "H4"
+			(at 270.51 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +747,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 273.05 166.37 0)
+			(at 256.54 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,30 +757,26 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MountingHole2"
-			(at 273.05 168.91 0)
+		(property "Footprint" "JetsonCarrier:MountingHole2"
+			(at 266.7 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 273.05 171.45 0)
+		(property "Datasheet" "~"
+			(at 266.7 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 156.21 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 266.7 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,17 +785,18 @@
 			)
 		)
 		(property "MPN" "9774065151R"
-			(at 266.7 157.48 0)
+			(at 270.51 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Public" "False"
-			(at 280.67 168.91 0)
+			(at 254 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +806,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 0 312.42 0)
+			(at 110.49 -101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +815,7 @@
 			)
 		)
 		(property "exclude_from_bom" ""
-			(at 0 312.42 0)
+			(at 110.49 -101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +829,7 @@
 		(instances
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
