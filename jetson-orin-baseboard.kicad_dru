@@ -107,21 +107,21 @@
 (rule "(pcie_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.254mm))
-	(constraint diff_pair_gap  (opt 0.1524mm))
+	(constraint track_width (opt 5.15mil))
+	(constraint diff_pair_gap  (opt 5mil))
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(pcie_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.151mm))
-	(constraint diff_pair_gap  (opt 0.1524mm))
+	(constraint track_width (opt 6.28mil))
+	(constraint diff_pair_gap  (opt 5mil))
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 
 (rule "(pcie_clearance"
 	(condition "A.NetClass == '85Ohm-diff_PCIE' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.8mm))
+	(constraint clearance (min 0.5mm))
 )
 
 #---------------------------------------------
