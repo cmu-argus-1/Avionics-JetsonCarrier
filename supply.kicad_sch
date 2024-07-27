@@ -21131,7 +21131,6 @@
 		)
 	)
 	(symbol
-		(lib_name "JetsonCarrier:SW_KMR211NGLFS_SMD")
 		(lib_id "JetsonCarrier:SW_KMR211NGLFS_SMD")
 		(at 69.85 53.34 270)
 		(unit 1)

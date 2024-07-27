@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson Carrier Board")
-		(date "2024-07-05")
+		(date "2024-07-10")
 		(rev "v1")
 		(company "Argus-1 Cubesat")
 		(comment 1 "www.antmicro.com")
@@ -6466,7 +6466,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "3k3"
 			(at 237.49 140.208 0)
 			(effects
 				(font
